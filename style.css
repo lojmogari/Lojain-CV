@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background: #F0E3A1;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Sections */
+
+section {
+    background-color: white;
+    width: 85%;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+section h2 {
+    color: #F0E3A1;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+section h3 {
+    margin-top: 20px;
+    color: #444;
+}
+
+section p {
+    margin-top: 10px;
+}
+
+/* Lists */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+
+#skills ul {
+    margin-bottom: 20px;
+}
+
+/* Contact */
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Copy Button */
+
+#copyBtn {
+    background-color: #93c5e6;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#copyBtn:hover {
+    background-color: #5277a7;
+}
+
+/* Message */
+
+#message {
+    margin-top: 10px;
+    color: #93c5e6;
+    font-weight: bold;
+}
+
+/* Back To Top Button */
+
+#topBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: #93c5e6;
+    color: white;
+
+    border: none;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    display: none;
+    transition: 0.3s;
+}
+
+#topBtn:hover {
+    background-color: #5277a7;
+}
